@@ -2,7 +2,7 @@
 
 Foi considerada a base de dados de casos COVID registados em animais, atualizada [neste repositório](https://github.com/amel-github/sars-ani), com uma cópia local [aqui](sars_ani_data.csv).
 
-## Columns Dict 
+## Field dictionary 
 Estas foram as colunas utilizadas neste projeto, para mais informações sobre outras colunas contidas neste dataset, é aconselhavel a consulta no repositório de onde os dados foram extraidos. 
 
 `host_com_orig` Most specific designation of the animal host provided by the source(s), in English.
