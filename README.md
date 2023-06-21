@@ -18,8 +18,8 @@ Estas foram as colunas utilizadas neste projeto, para mais informações sobre o
 `living_conditions` How/where the animal(s) live(s).
 
 `source_of_infection` Most probable source of SARS-CoV-2 infection.
+    
   
-
   
 Foram escritos programas Python que respondem às seguintes questões:
 
