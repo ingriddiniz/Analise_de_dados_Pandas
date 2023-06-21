@@ -15,7 +15,7 @@ import csv
 from collections import Counter
 from datetime import datetime
 
-data = pd.read_csv('/content/drive/MyDrive/Prog2/sars_ani_data.csv')
+data = pd.read_csv('sars_ani_data.csv')
 
 
 def casosCaes():
