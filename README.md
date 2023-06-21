@@ -1,6 +1,6 @@
 # Análise de dados (Pandas)
 
-Foi considerada a base de dados de casos COVID registados em animais, atualizada [neste repositório](https://github.com/amel-github/sars-ani), com uma cópia local [aqui](../scripts/projeto2/dados/sars_ani_data.csv).
+Foi considerada a base de dados de casos COVID registados em animais, atualizada [neste repositório](https://github.com/amel-github/sars-ani), com uma cópia local [aqui](sars_ani_data.csv).
 
 Foram escritos programas Python que respondem às seguintes questões:
 
