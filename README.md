@@ -19,7 +19,7 @@ Estas foram as colunas utilizadas neste projeto, para mais informações sobre o
 
 `source_of_infection` Most probable source of SARS-CoV-2 infection.
     
-  
+## Funções  
   
 Foram escritos programas Python que respondem às seguintes questões:
 
