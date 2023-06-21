@@ -2,6 +2,8 @@
 
 Foi considerada a base de dados de casos COVID registados em animais, atualizada [neste repositório](https://github.com/amel-github/sars-ani), com uma cópia local [aqui](sars_ani_data.csv).
 
+`sars_ani_data.csv` contém os dados brutos do conjunto de dados SARS-ANI, que apresenta informações estruturadas sobre Eventos SARS-CoV-2 em animais (formato .csv, UTF-8 codificado).
+
 ## Field dictionary 
 Estas foram as colunas utilizadas neste projeto, para mais informações sobre outras colunas contidas neste dataset, é aconselhavel a consulta no repositório de onde os dados foram extraidos. 
 
