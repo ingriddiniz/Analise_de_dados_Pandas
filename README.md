@@ -2,6 +2,7 @@
 
 Foi considerada a base de dados de casos COVID registados em animais, atualizada [neste repositório](https://github.com/amel-github/sars-ani), com uma cópia local [aqui](sars_ani_data.csv).
 
+## Columns Dict 
   `ID` Unique identifier for each unique event of SARS-CoV-2 infection/exposure in animal(s).
 
 `primary_source` Primary source of information to document the event. Possible pre-defined string values are: ProMED; WAHIS.
