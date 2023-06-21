@@ -23,7 +23,7 @@ Estas foram as colunas utilizadas neste projeto, para mais informações sobre o
 
 #### Nota
 
-Consideramos os dois seguintes valores em todo o conjunto de dados:
+Foram considerados os dois seguintes valores em todo o conjunto de dados:
 
 - `NS` Não especificado: a informação seria relevante para o evento, mas a informação não foi mencionada no primário ou fonte secundária.
 - `NA` Não aplicável: o campo não é aplicável neste caso
