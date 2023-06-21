@@ -17,7 +17,6 @@ from datetime import datetime
 
 data = pd.read_csv('/content/drive/MyDrive/Prog2/sars_ani_data.csv')
 
-data
 
 def casosCaes():
     count = 0
