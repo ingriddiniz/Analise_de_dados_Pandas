@@ -20,6 +20,13 @@ Estas foram as colunas utilizadas neste projeto, para mais informações sobre o
 `living_conditions` How/where the animal(s) live(s).
 
 `source_of_infection` Most probable source of SARS-CoV-2 infection.
+
+#### Nota
+
+Consideramos os dois seguintes valores em todo o conjunto de dados:
+
+- `NS` Não especificado: a informação seria relevante para o evento, mas a informação não foi mencionada no primário ou fonte secundária.
+- `NA` Não aplicável: o campo não é aplicável neste caso
     
 ## Funções  
   
