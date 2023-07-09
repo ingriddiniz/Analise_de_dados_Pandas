@@ -23,12 +23,9 @@ Estas foram as colunas utilizadas neste projeto, para mais informações sobre o
 
 #### Nota
 
-Os dados apresentam os dois seguintes valores no conjunto de dados:
-
-- `NS` Não especificado: a informação seria relevante para o evento, mas a informação não foi mencionada no primário ou fonte secundária.
-- `NA` Não aplicável: o campo não é aplicável neste caso
+Os valores "NS" (Não especificado) e "NA" (Não aplicável) podem ser encontrados nos dados, indicando quando a informação não foi mencionada ou não se aplica ao evento.
     
-## Funções  
+## Funções Implementadas
   
 Foram escritos programas Python que respondem às seguintes questões:
 
