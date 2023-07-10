@@ -1,6 +1,8 @@
 # Análise de Dados de Casos COVID Resgistrados em Animais
 ![Bichos](bichos.png)
+Este é um projeto da cadeira de Programação 2 proposto pela Faculdade de Ciências da Universidade do Porto, cujo objetivo é investigar os conceitos base de análise de dados em Python de uma perspetiva prática, e aplicá-los na leitura e processamento de dados em formato JSON.
 
+## Conjunto de Dados
 Foi considerada a base de dados de casos COVID registados em animais, atualizada [neste repositório](https://github.com/amel-github/sars-ani), com uma cópia local [aqui](sars_ani_data.csv).
 
 `sars_ani_data.csv` contém os dados brutos do conjunto de dados SARS-ANI, que apresenta informações estruturadas sobre Eventos SARS-CoV-2 em animais (formato .csv, UTF-8 codificado).
