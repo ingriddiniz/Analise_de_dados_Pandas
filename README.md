@@ -1,5 +1,5 @@
 # Análise de Dados de Casos COVID Resgistrados em Animais
-[!Bichos](bichos.png)
+![Bichos](bichos.png)
 
 Foi considerada a base de dados de casos COVID registados em animais, atualizada [neste repositório](https://github.com/amel-github/sars-ani), com uma cópia local [aqui](sars_ani_data.csv).
 
