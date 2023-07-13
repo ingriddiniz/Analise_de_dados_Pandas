@@ -53,3 +53,5 @@ Python programs were written to answer the following questions:
 In this project, we analyzed COVID cases registered in animals using Python programming. By examining the SARS-ANI dataset, we gained insights into the occurrence of SARS-CoV-2 in various animal hosts.
 <br>
 Through the implemented functions, we were able to extract valuable information from the dataset. We determined the number of reported cases involving dogs and identified the number of events reported for felid species, ranked in descending order. We also discovered the countries with the highest number of events involving contact with humans for each animal class and calculated the average periodicity of new cases published for farm animals in countries with at least two events.
+<br>
+This project provided practical experience in data analysis using Python and showcased the potential of Python as a tool for exploring and analyzing real-world datasets. By combining programming skills with data analysis techniques, we were able to extract meaningful information and draw conclusions about the occurrence of COVID in animals.
