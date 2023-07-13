@@ -1,14 +1,14 @@
-# Análise de Dados de Casos COVID Resgistrados em Animais
+# COVID Cases Data Analysis in Animals
 ![Bichos](bichos.png)<br>
-Este é um projeto da cadeira de Programação 2 proposto pela Faculdade de Ciências da Universidade do Porto, cujo objetivo é investigar os conceitos base de análise de dados em Python de uma perspetiva prática, e aplicá-los na leitura e processamento de dados.
+This is a project for the Programming 2 course proposed by the Faculty of Sciences of the University of Porto. The objective is to investigate the basic concepts of data analysis in Python from a practical perspective and apply them to data reading and processing.
 
-## Conjunto de Dados
-Foi considerada a base de dados de casos COVID registados em animais, atualizada [neste repositório](https://github.com/amel-github/sars-ani), com uma cópia local [aqui](sars_ani_data.csv).
+## Dataset
+The dataset used is the database of COVID cases registered in animals, updated in [this repository](https://github.com/amel-github/sars-ani), with a local copy available [here](sars_ani_data.csv).
 
-`sars_ani_data.csv` contém os dados brutos do conjunto de dados SARS-ANI, que apresenta informações estruturadas sobre Eventos SARS-CoV-2 em animais (formato .csv, UTF-8 codificado).
+The file `sars_ani_data.csv` contains the raw data of the SARS-ANI dataset, which provides structured information about SARS-CoV-2 events in animals (in .csv format, UTF-8 encoded).
 
 ## Field dictionary 
-Estas foram as colunas utilizadas neste projeto, para mais informações sobre outras colunas contidas neste dataset, é aconselhavel a consulta no repositório de onde os dados foram extraidos. 
+The following columns were used in this project. For more information about other columns in this dataset, it is advisable to refer to the repository from which the data was extracted.
 
 `host_com_orig` Most specific designation of the animal host provided by the source(s), in English.
 
@@ -24,26 +24,32 @@ Estas foram as colunas utilizadas neste projeto, para mais informações sobre o
 
 `source_of_infection` Most probable source of SARS-CoV-2 infection.
 
-#### Nota
+#### Note
 
-Os valores "NS" (Não especificado) e "NA" (Não aplicável) podem ser encontrados nos dados, indicando quando a informação não foi mencionada ou não se aplica ao evento.
+The values "NS" (Not specified) and "NA" (Not applicable) can be found in the data, indicating when the information was not mentioned or does not apply to the event.
     
-## Funções Implementadas
+## Implemented Functions
   
-Foram escritos programas Python que respondem às seguintes questões:
+Python programs were written to answer the following questions:
 
-* Qual o número de casos reportados com cães?
+* What is the number of reported cases with dogs?
   
-  A função `casosCaes` retorna o número de casos.
+ The `casosCaes` function returns the number of cases.
   
-* Qual o número de eventos reportados para espécies de felídeos (família *Felidae*)?
+* What is the number of reported events for felid species (family *Felidae*)?
   
-  A função `eventosFelideos` retorna uma lista de pares `(espécie,número_eventos)` por ordem decrescente de número de eventos.
+  The `eventosFelideos` function returns a list of pairs (species, event_count) in descending order of the number of events.
    
-* Por cada classe de animal (coluna `living_conditions`), qual o país com mais eventos de contacto com humanos (coluna `source_of_infection` igual a `human`)?
+* For each animal class (column `living_conditions`), which country has the most events of contact with humans (column `source_of_infection` equals "human")??
   
-  A função `maisHumanos` retorna um dicionário `{ classe : país }`.
+ The ´maisHumanos´ function returns a dictionary in the format {class: country}.
   
-* Considerando apenas eventos com animais de quinta (coluna `living_conditions` igual a `farm`). Para países com pelo menos dois eventos publicados, qual a periodicidade média (em número de dias) em que novos casos foram publicados?
+* Considering only events with farm animals (column `living_conditions` equals "farm"), for countries with at least two published events, what is the average periodicity (in number of days) at which new cases were published?
   
-  A função `mediaQuintas` retorna um dicionário `{ país : periodicidade }`.
+  The `mediaQuintas` function returns a dictionary in the format {country: periodicity}.
+
+## Conclusion
+
+In this project, we analyzed COVID cases registered in animals using Python programming. By examining the SARS-ANI dataset, we gained insights into the occurrence of SARS-CoV-2 in various animal hosts.
+<br>
+Through the implemented functions, we were able to extract valuable information from the dataset. We determined the number of reported cases involving dogs and identified the number of events reported for felid species, ranked in descending order. We also discovered the countries with the highest number of events involving contact with humans for each animal class and calculated the average periodicity of new cases published for farm animals in countries with at least two events.
