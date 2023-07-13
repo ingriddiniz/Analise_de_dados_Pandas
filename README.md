@@ -1,6 +1,6 @@
 # COVID Cases Data Analysis in Animals
 ![Bichos](bichos.png)<br>
-This is a project for the Programming 2 course proposed by the Faculty of Sciences of the University of Porto. The objective is to investigate the basic concepts of data analysis in Python from a practical perspective and apply them to data reading and processing.
+This is a project for the Programming 2 course proposed by the Faculdade de Ciências da Universidade do Porto. The objective is to investigate the basic concepts of data analysis in Python from a practical perspective and apply them to data reading and processing.
 
 ## Dataset
 The dataset used is the database of COVID cases registered in animals, updated in [this repository](https://github.com/amel-github/sars-ani), with a local copy available [here](sars_ani_data.csv).
